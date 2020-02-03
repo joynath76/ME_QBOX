@@ -1,5 +1,6 @@
 #!/bin/bash
-
+cd ~/workspace/QBox/logs
+ls -ltr
 # TODO: CRIO_TASK_MODULE_LINUX_COMMANDS
     # Tasks:
     # 1) Add commands to list files in the QBox/logs directory in long format, 

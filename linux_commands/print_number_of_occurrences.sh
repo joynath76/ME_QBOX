@@ -1,5 +1,13 @@
 #!/bin/bash
-
+counter=0
+while IFS= read -r line
+do
+  if [[ $line =~ "230 Login successful" ]]
+  then
+      counter=$(($counter + 1))
+  fi
+done < ~/workspace/QBox/logs/vsftpd1.log
+echo $counter
 # TODO: CRIO_TASK_MODULE_LINUX_COMMANDS
     # Tasks:
     # 1) Add commands to count the number of successful user logins with the string “230 Login successful” in the file vsftpd1.log. 

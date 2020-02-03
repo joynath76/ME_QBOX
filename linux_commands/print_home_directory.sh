@@ -1,5 +1,6 @@
 #!/bin/bash
-
+cd ~
+pwd
 # TODO: CRIO_TASK_MODULE_LINUX_COMMANDS
     # Tasks:
     # 1) Add commands to print the home directory for crio-user

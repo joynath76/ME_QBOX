@@ -1,5 +1,9 @@
 #!/bin/bash
-
+mkdir ~/workspace/QBox/backup
+mkdir ~/workspace/QBox/transfer
+cp ~/workspace/QBox/logs/vsftpd1.log ~/workspace/QBox/backup
+cd ~/workspace/QBox
+tree
 # TODO: CRIO_TASK_MODULE_LINUX_COMMANDS
     # Tasks:
     # 1) Add commands to create directories “backup” and “transfer” at /home/crio-user/workspace/QBox.
