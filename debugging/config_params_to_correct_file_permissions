@@ -1,0 +1,2 @@
+local_umask=077
+file_open_mode=0677

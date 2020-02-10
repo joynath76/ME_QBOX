@@ -1,0 +1,2 @@
+transfer of file in vsftpd_v2 is very less as compared to the benchmark speed
+the file transfer speed of vsftpd_v2 is 234kb/s whereas in vsftpd_v1 it is 212Mb/s
