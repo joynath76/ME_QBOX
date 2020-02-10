@@ -1,0 +1,3 @@
+Command used to check the file permissions: ls -lh | awk '{print $1}'
+
+Permissions for the uploaded file in the faulty version: -w-------
