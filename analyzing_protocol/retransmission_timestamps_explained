@@ -1,0 +1,6 @@
+0.0000, 0.4120, 1.2635, 3.7360, 11.2050, 33.6150
+0.4120, 0.8515, 2.4725, 7.4690, 22.4100
+increased
+it is multiple of 3 of the previous timestamp
+1. the packet sent by the client may be lost somewhere in between client and server.
+2. it may be like that acknowledgement sent by the server lost somewhere. 

@@ -1,0 +1,2 @@
+seq increases according to the data send in each packet
+and ack incarases according to the previous relative acknowldgement number

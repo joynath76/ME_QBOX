@@ -1,0 +1,7 @@
+Network layer
+no, there is no application layer with ping
+yes
+Ping statistics for 3.6.209.100:
+Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+Minimum = 99ms, Maximum = 171ms, Average = 126ms

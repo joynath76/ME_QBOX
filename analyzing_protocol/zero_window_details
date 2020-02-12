@@ -1,0 +1,5 @@
+117, 955, 1747, 1774,2780,3068
+When a client set a zero value for windows size this indicates that
+the TCP receive buffer is full and it cannot receive any more data.
+A TCP Zero Window from a client will halt the data transmission from 
+the server side, allowing time for the problem station to clear its buffer.

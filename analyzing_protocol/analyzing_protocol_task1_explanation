@@ -1,0 +1,5 @@
+Due to the NAT.
+Computer A request a web page from an Internet server. Because Computer A uses private IP addressing, the source address of the 
+request has to be changed by the router because private IP addresses are not routable on the Internet. Router R1 receives the request, 
+changes the source IP address to its public IP address and sends the packet to server S1. Server S1 receives the packet and replies to router R1. 
+Router R1 receives the packet, changes the destination IP addresses to the private IP address of Computer A and sends the packet to Computer A.

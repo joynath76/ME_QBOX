@@ -1,0 +1,3 @@
+in packet#1 the client request a connection, syn=set
+but in packet#2 the server acknowledge the request and set the reset value to 1
+and refuses the connection.
